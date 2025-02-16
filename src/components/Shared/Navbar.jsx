@@ -83,7 +83,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className="lg:hidden bg-black bg-opacity-10 w-full px-4 py-5 absolute top-full left-0 z-20">
+        <div className="lg:hidden bg-black bg-opacity-10 w-full px-4 py-5 absolute top-full left-0 z-20 mt-7 ">
           {menuItems.map((item) => (
             <a
               key={item}

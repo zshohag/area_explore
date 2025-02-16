@@ -18,7 +18,7 @@ const CardGrid = () => {
             <h5 className="text-[22px] font-bold leading-[29px] font-poppins">
               Miami Dade County
             </h5>
-
+            {/* icon */}
             <div className="lg:hidden w-[48px] h-[48px] rounded-[8px] flex items-center justify-center bg-[#1018280D]">
               <svg
                 width="11"
@@ -42,7 +42,6 @@ const CardGrid = () => {
 
           {/* Icons for smaller devices */}
           <IconsGroup isSmallDevice={true} />
-
           <div className="w-full h-[1px] bg-[#D6D6D6] mt-3"></div>
         </div>
 
