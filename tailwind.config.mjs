@@ -1,3 +1,5 @@
+
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -7,11 +9,18 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
+        "nunito-sans": ["Nunito Sans", "sans-serif"],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
     },
   },
-  plugins: [],
+  daisyui: {
+    themes: ["light", "dark"], // Customize DaisyUI themes
+  },
+  plugins: [require("daisyui")],
 };
